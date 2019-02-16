@@ -112,7 +112,7 @@ def webprint():
 
 
         val = model.predict([[mat_con]])
-        data = {"Predicted Touchdowns":str(val), "Model Type": "Sequential","Loaded Model":"td_predict.h5", "Epochs": "5000"}
+        data = {"Predicted Touchdowns":str(val), "Model Type": "Sequential","Loaded Model":"td_predict.h5", "Epochs": "500"}
         print(data)
 
         response = app.response_class(
